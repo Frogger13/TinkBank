@@ -16,6 +16,7 @@
 		B7CFC1DC2BFC8C79001C0E93 /* TinkBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CFC1DB2BFC8C79001C0E93 /* TinkBankTests.swift */; };
 		B7CFC1E62BFC8C79001C0E93 /* TinkBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CFC1E52BFC8C79001C0E93 /* TinkBankUITests.swift */; };
 		B7CFC1E82BFC8C79001C0E93 /* TinkBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CFC1E72BFC8C79001C0E93 /* TinkBankUITestsLaunchTests.swift */; };
+		B7CFC1F82BFC8D67001C0E93 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CFC1F72BFC8D67001C0E93 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B7CFC1E12BFC8C79001C0E93 /* TinkBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CFC1E52BFC8C79001C0E93 /* TinkBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkBankUITests.swift; sourceTree = "<group>"; };
 		B7CFC1E72BFC8C79001C0E93 /* TinkBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7CFC1F72BFC8D67001C0E93 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +101,9 @@
 		B7CFC1C32BFC8C77001C0E93 /* TinkBank */ = {
 			isa = PBXGroup;
 			children = (
-				B7CFC1C42BFC8C77001C0E93 /* AppDelegate.swift */,
-				B7CFC1C62BFC8C77001C0E93 /* SceneDelegate.swift */,
-				B7CFC1C82BFC8C77001C0E93 /* ViewController.swift */,
+				B7CFC1F52BFC8C8B001C0E93 /* Sources */,
+				B7CFC1F42BFC8C83001C0E93 /* Resources */,
 				B7CFC1CA2BFC8C77001C0E93 /* Main.storyboard */,
-				B7CFC1CD2BFC8C79001C0E93 /* Assets.xcassets */,
 				B7CFC1CF2BFC8C79001C0E93 /* LaunchScreen.storyboard */,
 				B7CFC1D22BFC8C79001C0E93 /* Info.plist */,
 			);
@@ -125,6 +125,33 @@
 				B7CFC1E72BFC8C79001C0E93 /* TinkBankUITestsLaunchTests.swift */,
 			);
 			path = TinkBankUITests;
+			sourceTree = "<group>";
+		};
+		B7CFC1F42BFC8C83001C0E93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7CFC1CD2BFC8C79001C0E93 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B7CFC1F52BFC8C8B001C0E93 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B7CFC1F62BFC8C94001C0E93 /* Application */,
+				B7CFC1C82BFC8C77001C0E93 /* ViewController.swift */,
+				B7CFC1F72BFC8D67001C0E93 /* SwiftUIView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B7CFC1F62BFC8C94001C0E93 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7CFC1C42BFC8C77001C0E93 /* AppDelegate.swift */,
+				B7CFC1C62BFC8C77001C0E93 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +287,7 @@
 			files = (
 				B7CFC1C92BFC8C77001C0E93 /* ViewController.swift in Sources */,
 				B7CFC1C52BFC8C77001C0E93 /* AppDelegate.swift in Sources */,
+				B7CFC1F82BFC8D67001C0E93 /* SwiftUIView.swift in Sources */,
 				B7CFC1C72BFC8C77001C0E93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
